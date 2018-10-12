@@ -13,8 +13,7 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Button1: TButton;
-    Label1: TLabel;
-    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
 
 
 
@@ -31,10 +30,17 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TForm1.Button1Click(Sender: TObject);
 begin
+ ADOInsertar.CommandText:='insert into yoquiero values(:nombre,:apellido)';
+ ADOInsertar.Parameters.ParamValues['nombre']:=edit1.Text;
+ ADOInsertar.Parameters.ParamValues['apellido']:=edit2.Text;
+ ADOInsertar.Execute;
 
-    Label1.Caption:= 'juan ramon es mallate';
 end;
+
+
+
+
 
 end.
