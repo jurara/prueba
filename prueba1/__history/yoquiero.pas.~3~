@@ -13,12 +13,13 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Button1: TButton;
+<<<<<<< HEAD
     Panel1: TPanel;
     Image1: TImage;
     procedure Button1Click(Sender: TObject);
-
+=======
     Label1: TLabel;
-
+>>>>>>> 2b742b3c93b440d4df758fc56bdff54e7aa7b216
     procedure FormCreate(Sender: TObject);
 
 
@@ -42,6 +43,7 @@ begin
     Label1.Caption:= 'juan ramon es mallate';
 end;
 
+<<<<<<< HEAD
 
 
 
@@ -51,5 +53,6 @@ begin
   ShowMessage("Miranda se la come riendo y repite :D XD");
 end;
 
-
+=======
+>>>>>>> 2b742b3c93b440d4df758fc56bdff54e7aa7b216
 end.
