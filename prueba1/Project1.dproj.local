@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
+	<Transactions>
     <Transaction>2018/09/11 14:02:06.099.pas,C:\Users\ACER\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\ACER\Documents\RAD Studio\Projects\prueba1\yoquiero.pas</Transaction>
     <Transaction>2018/09/11 14:02:06.099.dfm,C:\Users\ACER\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\ACER\Documents\RAD Studio\Projects\prueba1\yoquiero.dfm</Transaction>
     <Transaction>2018/09/11 14:02:28.103.dproj,C:\Users\ACER\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\ACER\Documents\RAD Studio\Projects\prueba1\Project1.dproj</Transaction>

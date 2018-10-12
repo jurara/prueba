@@ -9,7 +9,11 @@ uses
 
 type
   TForm1 = class(TForm)
+    ADOConnection1: TADOConnection;
+    ADOTable1: TADOTable;
     DBAdvGrid1: TDBAdvGrid;
+    DataSource1: TDataSource;
+    ADOInsertar: TADOCommand;
     Edit1: TEdit;
     Edit2: TEdit;
     Button1: TButton;
